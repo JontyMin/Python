@@ -23,7 +23,7 @@ print(os.sep)  # \\路径分隔符
 
 print(os.getcwd())  # 获取当前工作目录
 
-print(os.listdir('E:/Python/NewPython'))  # 返回指定目录下文件和目录信息
+print(os.listdir('E:/Python/基础'))  # 返回指定目录下文件和目录信息
 
 """
 os提供
@@ -120,6 +120,6 @@ shutil.rmtree(path)  # 删除该目录下的所有子目录和内容
 #%%
 # 遍历目录
 import os
-tuples = os.walk(r"E:\Python\NewPython\基础")
+tuples = os.walk(r"/基础\基础")
 for i in tuples:
     print(i,'\n')
